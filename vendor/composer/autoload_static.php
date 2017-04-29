@@ -91,6 +91,7 @@ class ComposerStaticInite563e19cc72bba1c1614476b9479451b
         ),
         'A' => 
         array (
+            'Arrilot\\Widgets\\' => 16,
             'App\\' => 4,
         ),
     );
@@ -226,6 +227,10 @@ class ComposerStaticInite563e19cc72bba1c1614476b9479451b
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
+        'Arrilot\\Widgets\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/arrilot/laravel-widgets/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -290,6 +295,23 @@ class ComposerStaticInite563e19cc72bba1c1614476b9479451b
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'Arrilot\\Widgets\\AbstractWidget' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/AbstractWidget.php',
+        'Arrilot\\Widgets\\AsyncFacade' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/AsyncFacade.php',
+        'Arrilot\\Widgets\\Console\\WidgetMakeCommand' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Console/WidgetMakeCommand.php',
+        'Arrilot\\Widgets\\Contracts\\ApplicationWrapperContract' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Contracts/ApplicationWrapperContract.php',
+        'Arrilot\\Widgets\\Controllers\\WidgetController' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Controllers/WidgetController.php',
+        'Arrilot\\Widgets\\Facade' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Facade.php',
+        'Arrilot\\Widgets\\Factories\\AbstractWidgetFactory' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Factories/AbstractWidgetFactory.php',
+        'Arrilot\\Widgets\\Factories\\AsyncWidgetFactory' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Factories/AsyncWidgetFactory.php',
+        'Arrilot\\Widgets\\Factories\\JavascriptFactory' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Factories/JavascriptFactory.php',
+        'Arrilot\\Widgets\\Factories\\WidgetFactory' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Factories/WidgetFactory.php',
+        'Arrilot\\Widgets\\Misc\\InvalidWidgetClassException' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Misc/InvalidWidgetClassException.php',
+        'Arrilot\\Widgets\\Misc\\LaravelApplicationWrapper' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Misc/LaravelApplicationWrapper.php',
+        'Arrilot\\Widgets\\Misc\\ViewExpressionTrait' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/Misc/ViewExpressionTrait.php',
+        'Arrilot\\Widgets\\ServiceProvider' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/ServiceProvider.php',
+        'Arrilot\\Widgets\\WidgetGroup' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetGroup.php',
+        'Arrilot\\Widgets\\WidgetGroupCollection' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetGroupCollection.php',
+        'Arrilot\\Widgets\\WidgetId' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetId.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
